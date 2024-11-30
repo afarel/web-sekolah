@@ -1,0 +1,145 @@
+body{
+    background-color: #efefef;
+}
+
+.upacara-bendera{
+   width: 100%;
+   max-height: 650px;
+   object-fit: cover;
+   object-position: center;
+   filter: blur(3px);
+   
+}
+
+.overlaping-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'poppins','sans-serif', 'helvetica';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%;
+    
+}
+
+.Judul-guru{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.guru-staff{
+    width: 100%;
+    max-height: 650px;
+    object-position: center;
+    filter: blur(3px);
+    display: flex;
+}
+.overlaping-text-2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'poppins','sans-serif', 'helvetica';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.card-container{
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+.card-content{
+    margin: 15px;
+    padding: 7px;
+}
+
+
+.kepala-sekolah{
+    object-fit: cover;
+    height: 350px;
+}
+
+.guru{
+    width: 300px;
+}
+
+.card-guru{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tenaga-kependidikan{
+    margin: 80px;
+    font-size: 25px;
+}
+
+.card-staff{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    
+}
+
+
+
+.card-wrapper{
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    margin: 50px 65px;
+}
+
+.card-wrapper .staff{
+    width: 200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .logo{
+        width: 40px;
+    }
+  }
